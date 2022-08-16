@@ -1,0 +1,5 @@
+<h1>My Tasks</h1>
+
+<% @tasks.each do |task| %>
+    <input type="checkbox" id="cbox1" value ="first_checkbox"><label for="cbox1"><%= task["title"] %></label>
+<% end %>
